@@ -72,7 +72,7 @@ git remote -v
 5. **Renomeie** o nome da aplicação:
 
 ```bash
-heroku apps:rename desafio-04-frontend
+heroku apps:rename desafio-04-backend
 ```
 
 6. Faça a **publicação** da aplicação:
