@@ -41,7 +41,7 @@ Os alunos deverão desempenhar as seguintes atividades:
 
 ## Iniciando
 
-**Instale as depências** de necessárias do do arquivo `package.json` para esse projeto:
+1. **Instale** as depências de necessárias do do arquivo `package.json` para esse projeto:
 
 ```bash
 npm install
@@ -49,10 +49,34 @@ npm install
 yarn install
 ```
 
-Inicie o projeto:
+2. Inicie o projeto:
 
 ```bash
 npm run start
 #or
 yarn start
+```
+
+3. **Inicie** uma aplicação Heroku:
+
+```bash
+heroku create
+```
+
+4. **Cerifique** se foi criado o repositório remoto:
+
+```bash
+git remote -v
+```
+
+5. **Renomeie** o nome da aplicação:
+
+```bash
+heroku apps:rename desafio-04-frontend
+```
+
+6. Faça a **publicação** da aplicação:
+
+```
+git push heroku main
 ```
